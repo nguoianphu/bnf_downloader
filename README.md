@@ -9,3 +9,10 @@ Please note that sending too many requests to the library's server at once will 
 This script requres the libraries [requests] (http://docs.python-requests.org/en/master/) and [regex] (https://bitbucket.org/mrabarnett/mrab-regex) to run.
 
 When using this script in Windows, depending on your system locale, you may experience encoding errors in command prompt. This is a Windows problem and there is nothing that can be done to fix it in the code. To work around this issue, try changing the code table of command prompt to Code Page 850 using the following command: `chcp 850`.
+
+```
+pip install requests time regex
+
+python bnf_1.1.py
+
+```
